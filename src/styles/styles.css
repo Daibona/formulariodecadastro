@@ -64,7 +64,7 @@ body {
     content: '';
     position: absolute;
     width: 250px;
-    height: 4px;
+    height: 3px;
     border-radius: 30px;
     background-color: #8CBD8C;
     left: 0;
