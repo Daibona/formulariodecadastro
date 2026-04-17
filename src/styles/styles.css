@@ -63,8 +63,8 @@ body {
 #form_title::after {
     content: '';
     position: absolute;
-    width: 100px;
-    height: 3px;
+    width: 250px;
+    height: 4px;
     border-radius: 30px;
     background-color: #8CBD8C;
     left: 0;
