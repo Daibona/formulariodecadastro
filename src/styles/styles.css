@@ -172,7 +172,8 @@ input:-webkit-autofill {
         width: 100%;
     }
 
-    .form-control[type="date"] {
-        background-color: white;
+    #gender_inputs {
+        flex-direction: column;
+        gap: 12px;
     }
 }
