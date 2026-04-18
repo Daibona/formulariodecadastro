@@ -151,29 +151,19 @@ input:-webkit-autofill {
 }
 
 @media screen and (max-width: 500px) {
-    body {
-        padding: 10px;
-        align-items: flex-start;
-    }
-
     #form_container {
         width: 100%;
         min-height: 100vh;
-        padding: 20px;
-        border-radius: 12px;
+        padding: 32px;
     }
 
     #input_container {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    #form_title::after {
-        width: 100%;
-    }
-
-    #gender_inputs {
+        display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 38px;
+    }
+
+    .form-control[type="date"] {
+        background-color: white;
     }
 }
